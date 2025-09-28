@@ -4,6 +4,96 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Your Name – Resume</title>
+  <style>
+    /* Global Reset */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.5;
+      max-width: 900px;
+      margin: auto;
+      padding: 1rem;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    figure {
+      display: inline-block;
+      text-align: center;
+    }
+
+    img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+
+    main {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+
+    section {
+      display: grid;
+      gap: 1.5rem;
+    }
+
+    article ul {
+      list-style-type: disc;
+      margin-left: 1.5rem;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+      padding: 0;
+    }
+
+    nav a,
+    footer a {
+      text-decoration: none;
+      color: #004aad;
+    }
+
+    nav a:hover,
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 2rem;
+    }
+
+    /* Responsive Enhancements */
+    @media (min-width: 700px) {
+      main {
+        flex-direction: row;
+        gap: 3rem;
+      }
+
+      section {
+        flex: 3;
+      }
+
+      nav {
+        flex: 1;
+        align-self: start;
+      }
+    }
+  </style>
 </head>
 <body>
 
@@ -52,17 +142,17 @@
       </ul>
     </nav>
 
-    <!-- LinkedIn Link -->
-    <footer>
-      <p>
-        Connect with me on 
-        <a href="https://www.linkedin.com/in/your-profile" target="_blank">
-          LinkedIn
-        </a>.
-      </p>
-    </footer>
-
   </main>
+
+  <!-- LinkedIn Link -->
+  <footer>
+    <p>
+      Connect with me on 
+      <a href="https://www.linkedin.com/in/your-profile" target="_blank">
+        LinkedIn
+      </a>.
+    </p>
+  </footer>
 
 </body>
 </html>
