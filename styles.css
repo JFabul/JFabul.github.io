@@ -22,6 +22,21 @@ header {
   margin-bottom: 2rem;
 }
 
+header p {
+  font-size: 0.95rem;
+  margin-top: 0.3rem;
+  color: #444;
+}
+
+header a {
+  text-decoration: none;
+  color: #0056b3;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
 figure {
   margin: 0;
 }
@@ -111,3 +126,4 @@ footer a:hover {
     align-self: start;
   }
 }
+
