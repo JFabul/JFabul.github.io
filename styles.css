@@ -126,7 +126,36 @@ nav h2 {
     border-radius: 8px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
   }
+
+  /*Project Link Pages*/
+  .back-button {
+  display: inline-block;
+  margin: 1rem 0;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid #003f7f;
+  border-radius: 4px;
+  background-color: #f0f4fa;
 }
+
+.back-button:hover {
+  background-color: #e6eef8;
+}
+
+.project-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.project-images img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  background-color: #ddd; /* Placeholder background */
+}
+
 
 
 
