@@ -14,27 +14,35 @@
 
     body {
       font-family: Arial, sans-serif;
-      line-height: 1.5;
+      line-height: 1.6;
       max-width: 900px;
       margin: auto;
       padding: 1rem;
+      background-color: #f5f7fa; /* Light background */
+      color: #1f1f1f;
     }
 
     header {
-      text-align: center;
+      display: flex;
+      align-items: center;
+      gap: 1.5rem;
       margin-bottom: 2rem;
     }
 
     figure {
-      display: inline-block;
-      text-align: center;
+      margin: 0;
     }
 
     img {
-      width: 150px;
-      height: 150px;
+      width: 140px;
+      height: 140px;
       object-fit: cover;
       border-radius: 50%;
+      border: 3px solid #6ca0dc; /* Accent color */
+    }
+
+    header h1 {
+      font-size: 2rem;
     }
 
     main {
@@ -46,6 +54,14 @@
     section {
       display: grid;
       gap: 1.5rem;
+      background: #ffffff;
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    }
+
+    h2 {
+      color: #003f7f; /* Headings in accent tone */
     }
 
     article ul {
@@ -61,27 +77,36 @@
       padding: 0;
     }
 
-    nav a,
-    footer a {
+    nav a {
       text-decoration: none;
-      color: #004aad;
+      color: #0056b3;
+      font-weight: bold;
     }
 
-    nav a:hover,
-    footer a:hover {
+    nav a:hover {
       text-decoration: underline;
     }
 
     footer {
       text-align: center;
       margin-top: 2rem;
+      font-size: 0.95rem;
     }
 
-    /* Responsive Enhancements */
+    footer a {
+      color: #0056b3;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    /* Responsive Layout */
     @media (min-width: 700px) {
       main {
         flex-direction: row;
-        gap: 3rem;
+        gap: 2rem;
       }
 
       section {
@@ -101,8 +126,8 @@
   <header>
     <figure>
       <img src="your-photo.jpg" alt="Photo of Your Name">
-      <figcaption>Your Name</figcaption>
     </figure>
+    <h1>Your Name</h1>
   </header>
 
   <!-- Main Content -->
@@ -110,7 +135,7 @@
 
     <!-- Basic Info Section -->
     <section aria-labelledby="basic-info-title">
-      <h1 id="basic-info-title">About Me</h1>
+      <h2 id="basic-info-title">About Me</h2>
 
       <article>
         <h2>Skills</h2>
