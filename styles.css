@@ -27,8 +27,8 @@ figure {
 }
 
 img {
-  width: 140px;
-  height: 140px;
+  width: 120px;
+  height: 120px;
   object-fit: cover;
   border-radius: 50%;
   border: 3px solid #6ca0dc;
@@ -127,6 +127,7 @@ footer a:hover {
     align-self: start;
   }
 }
+
 
 
 
