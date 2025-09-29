@@ -34,6 +34,13 @@ img {
   border: 3px solid #6ca0dc;
 }
 
+img2 {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #6ca0dc;
+
 header h1 {
   font-size: 2rem;
   margin-bottom: 0.2rem;
@@ -155,6 +162,7 @@ nav h2 {
   object-fit: cover;
   background-color: #ddd; /* Placeholder background */
 }
+
 
 
 
