@@ -1,4 +1,5 @@
 
+/* Global Reset */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -11,8 +12,8 @@ body {
   max-width: 900px;
   margin: auto;
   padding: 1rem;
-  background-color: #add8e6; /*Light Blue*/
-  color: #1f1f1f; /*Black*/
+  background-color: #f5f7fa;
+  color: #1f1f1f;
 }
 
 header {
@@ -27,8 +28,8 @@ figure {
 }
 
 img {
-  width: 120px;
-  height: 120px;
+  width: 140px;
+  height: 140px;
   object-fit: cover;
   border-radius: 50%;
   border: 3px solid #6ca0dc;
@@ -70,7 +71,7 @@ section {
 }
 
 h2 {
-  color: #003f7f; /*Dark Blue*/
+  color: #003f7f;
 }
 
 article ul {
@@ -78,12 +79,10 @@ article ul {
   margin-left: 1.5rem;
 }
 
-/*Link List*/
 nav ul {
   list-style: none;
   display: flex;
-  flex-direction: column;
-  gap: 0.20rem;
+  gap: 1rem;
   justify-content: center;
   padding: 0;
 }
@@ -98,16 +97,23 @@ nav a:hover {
   text-decoration: underline;
 }
 
-nav h2 {
-  font-size: 1.2rem;
-  margin-bottom: 0.5rem;
-  padding-bottom: 0.3rem;
-  border-bottom: 1px solid #ccc;
-  color: #003f7f;
+footer {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 0.95rem;
+}
+
+footer a {
+  color: #0056b3;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
 
 /* Responsive Layout */
-@media (min-width: 500px) {
+@media (min-width: 700px) {
   main {
     flex-direction: row;
     gap: 2rem;
@@ -120,12 +126,9 @@ nav h2 {
   nav {
     flex: 1;
     align-self: start;
-    background: #ffffff;
-    padding: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
   }
+}
+
 
   /*Project Link Pages*/
   .back-button {
@@ -155,6 +158,7 @@ nav h2 {
   object-fit: cover;
   background-color: #ddd; /* Placeholder background */
 }
+
 
 
 
