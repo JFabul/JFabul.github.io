@@ -93,6 +93,7 @@ nav h2 {
   padding-bottom: 0.3rem;
   border-bottom: 1px solid #ccc;
   color: #003f7f;
+}
 
 nav a {
   text-decoration: none;
@@ -170,6 +171,7 @@ footer a:hover {
   object-fit: cover;
   background-color: #ddd; /* Placeholder background */
 }
+
 
 
 
