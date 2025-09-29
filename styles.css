@@ -166,11 +166,13 @@ footer a:hover {
 }
 
 .project-images img {
-  width: 200px;
-  height: 150px;
+  width: 250px;
+  height: 180px;
   object-fit: cover;
+  border-radius: 4px;
   background-color: #ddd; /* Placeholder background */
 }
+
 
 
 
