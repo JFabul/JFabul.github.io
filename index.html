@@ -1,53 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Your Name - Resume</title>
-  <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name – Resume</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
+  <!-- Header: Image, Name & Email -->
   <header>
-    <section class="profile">
-      <figure class="profile-image">
-        <img src="#" alt="Your Photo" />
-      </figure>
-      <div class="profile-info">
-        <h1>Your Name</h1>
-        <p class="email">youremail@example.com</p>
-
-        <!-- ✅ Moved LinkedIn link here -->
-        <p class="linkedin">
-          <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
-            View my LinkedIn
-          </a>
-        </p>
-
-        <p class="statement">
-          A short professional statement about your goals, values, or
-          background can go here.
-        </p>
-
-        <section class="basic-details" aria-label="Basic Information">
-          <h2>Details</h2>
-          <ul>
-            <li><strong>Skills:</strong> Skill 1, Skill 2, Skill 3</li>
-            <li><strong>Education:</strong> Your degree(s), institution(s)</li>
-          </ul>
-        </section>
-      </div>
+    <figure>
+      <img src="your-photo.jpg" alt="Photo of Your Name">
+    </figure>
+    <section>
+      <h1>Your Name</h1>
+      <p><a href="mailto:youremail@example.com">youremail@example.com</a></p>
     </section>
   </header>
 
+  <!-- Main Content -->
   <main>
+
+    <!-- Basic Info Section -->
+    <section aria-labelledby="basic-info-title">
+      <h2 id="basic-info-title">About Me</h2>
+
+      <article>
+        <h2>Skills</h2>
+        <ul>
+          <li>Skill One</li>
+          <li>Skill Two</li>
+          <li>Skill Three</li>
+        </ul>
+      </article>
+
+      <article>
+        <h2>Education</h2>
+        <p>Degree, Institution, Year</p>
+      </article>
+
+      <article>
+        <h2>Statement</h2>
+        <p>
+          A brief personal/professional statement goes here.
+        </p>
+      </article>
+    </section>
+
+    <!-- Links to Two Other Pages -->
     <nav aria-label="Additional Pages">
-      <h2>Additional Links</h2>
-      <hr />
       <ul>
         <li><a href="projects.html">Projects</a></li>
         <li><a href="experience.html">Experience</a></li>
       </ul>
     </nav>
+
   </main>
+
+  <!-- LinkedIn Link -->
+  <footer>
+    <p>
+      Connect with me on 
+      <a href="https://www.linkedin.com/in/your-profile" target="_blank">
+        LinkedIn
+      </a>.
+    </p>
+  </footer>
+
 </body>
 </html>
